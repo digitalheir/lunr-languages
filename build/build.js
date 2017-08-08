@@ -36,7 +36,7 @@ function wordCharacters(script) {
 var list = [{
     locale: 'ceb',
     file: 'CebuanoStemmer.js',
-    stopwords: stopwordsRepoFolder + 'ceb.csv',
+    stopwords: stopwordsCustomFolder + 'ceb.csv',
     wordCharacters: wordCharacters('Latin')
 }, {
     locale: 'da',
